@@ -13,7 +13,7 @@ if (isset($data['url'])) {
     $repoUrl = $data['url'];
     
     // API Key fornecida
-    $apiKey = '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';
+    $apiKey = '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';
 
     // Extrai o nome do proprietário e do repositório da URL
     $urlParts = parse_url($repoUrl);
