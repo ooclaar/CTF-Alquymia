@@ -35,7 +35,7 @@ try {
     }
 
     // Token criptografado em base64
-    $encryptedToken = 'U2FsdGVkX1897EX1TFrAzK1KsXdtxrFvyqikGRaGaWguhNtM+JLjXcwSiTrvl0IAj/heZ6AtlXY0yWap3Dw2RdMlP3LVTAmFNZEdvokFHMU7cLxUBFSZ0/sUegZe9Dq64WLqMYUalZhtKMn0J8RmJA==';
+    $encryptedToken = 'xxx';
 
     // Descriptografa o token usando OpenSSL
     $apiKey = openssl_decrypt(base64_decode($encryptedToken), 'aes-256-cbc', $encryptionKey, 0, substr($encryptionKey, 0, 16));
